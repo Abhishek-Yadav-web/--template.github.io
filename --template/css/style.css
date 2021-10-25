@@ -1,0 +1,34 @@
+/* GoogleFont-Link */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* root */
+
+:root {
+    --default-family: 'Poppins', sans-serif;
+}
+
+
+/* universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* agar box-sizing nahi daale ge tho padding page ko streach karega */
+    box-sizing: border-box;
+}
+
+
+/* HTML */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* body */
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
